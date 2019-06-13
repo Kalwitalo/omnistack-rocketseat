@@ -5,10 +5,10 @@ import New from './pages/New';
 
 function Routes() {
     return (
-        <switch>
+        <Switch>
             <Route path="/" component={Feed} exact/>
             <Route path="/new" component={New}/>
-        </switch>
+        </Switch>
     );
 }
 
